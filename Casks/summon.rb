@@ -7,7 +7,7 @@ cask "summon" do
   desc "Launch or focus apps with global keyboard shortcuts"
   homepage "https://github.com/timrekelj/summon"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Summon.app"
 
