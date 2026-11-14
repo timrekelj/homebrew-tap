@@ -1,6 +1,6 @@
 cask "summon" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "1.0.0"
+  sha256 "2cd51eabdda49e0dc64d6e78a798d47371fb1107bc4d88c7673ba47862ce7086"
 
   url "https://github.com/timrekelj/summon/releases/download/v#{version}/Summon.zip"
   name "Summon"
