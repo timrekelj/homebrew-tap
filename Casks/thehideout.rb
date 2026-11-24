@@ -1,13 +1,13 @@
 cask "thehideout" do
-  version "0.1.0"
+  version "0.1.1"
 
   on_arm do
-    sha256 "e08fbd2ad84a608b332edf85d8e1c01fac6365b2ed17b5e2e8de16863407de3b"
+    sha256 "9d8e4318ddb429cf9c3cc2896baed79b1a464e2617a0833e4a08b1f248b537ac"
 
     url "https://github.com/timrekelj/thehideout/releases/download/v#{version}/thehideout-#{version}-macos-arm64.dmg"
   end
   on_intel do
-    sha256 "3b0cecb11c86e2eb590c8b4183ca421f8fa1c2f243e8d3ebf22b8d8063bed7c6"
+    sha256 "58742fd581330288bf50646918957ffce056a07f9b9a2cc1850be7b2532f3a4b"
 
     url "https://github.com/timrekelj/thehideout/releases/download/v#{version}/thehideout-#{version}-macos-x86_64.dmg"
   end
